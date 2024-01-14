@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .container {
+        @apply max-w-6xl mx-auto;
+    }
+    .btn {
+        @apply inline-block text-xs py-3 px-6 capitalize text-center text-white rounded-md bg-pink font-semibold;
+    }
+    .row {
+        @apply grid grid-cols-12 gap-x-5;
+    }
+    .card {
+        @apply p-6 rounded-lg gap-4 mr-16;
+    }
+}
